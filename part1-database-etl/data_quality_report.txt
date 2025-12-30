@@ -1,0 +1,30 @@
+FlexiMart Data Quality Report
+=============================
+
+Customers File (customers_raw.csv)
+----------------------------------
+Total records processed: 25
+Duplicate records removed: 1
+Records with missing email removed: 6
+Final records loaded into customers table: 18
+
+Products File (products_raw.csv)
+--------------------------------
+Total records processed: 20
+Duplicate records removed: 0
+Missing prices filled using median: 3
+Missing stock quantities filled with default (0): 1
+Final records loaded into products table: 20
+
+Sales File (sales_raw.csv)
+--------------------------
+Total records processed: 40
+Duplicate transactions removed: 1
+Records with missing customer_id removed: 3
+Records with missing product_id removed: 2
+Final records loaded into sales/orders tables: 34
+
+Overall ETL Status
+------------------
+ETL process completed successfully.
+All data quality issues were handled according to defined transformation rules.
