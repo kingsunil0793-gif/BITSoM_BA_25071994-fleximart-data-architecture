@@ -1,9 +1,9 @@
 # FlexiMart Data Architecture Project
 
-**Student Name:** [Your Name]
-**Student ID:** [Your ID]
-**Email:** [Your Email]
-**Date:** [Date]
+**Student Name:** [Sunil Kumar]
+**Student ID:** [BITSom_BA_25071994]
+**Email:** [kingsunil0793@gmail.com]
+**Date:** [30/12/2025]
 
 ## Project Overview
 
