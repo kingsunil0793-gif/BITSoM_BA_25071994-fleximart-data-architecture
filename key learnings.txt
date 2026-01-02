@@ -1,0 +1,23 @@
+Key Learnings:
+
+
+1.Importance of normalization in database design
+
+  Applying Third Normal Form (3NF) helped eliminate redundancy and ensured that each data element is stored only once. 
+  This improves storage efficiency and reduces the risk of inconsistent data.
+
+2.Role of functional dependencies
+
+  Identifying functional dependencies made it easier to determine correct primary keys and ensured that non-key attributes depend only on the primary key, which is essential for achieving 3NF compliance.
+
+3.Significance of entity relationships
+
+  Clearly defined one-to-many and many-to-many relationships allowed accurate modeling of real-world business processes such as customers placing multiple orders and orders containing multiple products.
+
+4.Prevention of data anomalies
+
+  Separating data into well-structured tables prevents update, insert, and delete anomalies, thereby maintaining data accuracy and reliability over time.
+
+5.Designing for scalability and maintainability
+
+  A normalized schema allows the database to scale efficiently as data volume increases and simplifies future modifications without impacting existing data integrity
