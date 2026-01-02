@@ -1,0 +1,24 @@
+CHALLENGES AND SOLUTIONS:
+
+1.Challenge: Identifying correct table relationships
+
+  Solution: Used ER modeling principles to map real-world scenarios
+
+2.Challenge: Avoiding data duplication
+
+  Solution: Applied normalization rules systematically
+
+3.Challenge: Balancing simplicity with completeness
+  
+  Solution: Included only essential attributes based on use-case
+
+4.Challenge: Ensuring referential integrity across multiple related tables
+  
+  Solution: Primary key and foreign key constraints were used to maintain valid references between customers, orders, products, and order_items. 
+  This ensures that orders cannot exist without a valid customer and order items cannot exist without valid orders and products, thereby maintaining data consistency and integrity throughout the database. 
+
+5.Challenge: Handling price changes for products over time without affecting historical data
+  
+  Solution: The unit_price attribute was stored in the order_items table to capture the price at the time of purchase. 
+  
+  This approach prevents historical order data from being altered when product prices change in the products table.
